@@ -44,5 +44,11 @@ docker build --build-arg VITE_API_URL=http://localhost:5000 -t tmdung0910/fronte
 docker run -d -p 3000:80 tmdung0910/frontend:latest
 
 ## 6. Triển khai Frontend trên Render
-- **Tên dịch vụ:** `web-2212345`
-- **URL Frontend (Link_Render_App):** https://web-2212345.onrender.com
+- **Tên dịch vụ:** `web-236912`
+- **URL Frontend (Link_Render_App):** https://web-236912.onrender.com
+
+## 7. Triển khai Backend API trên Render
+- **Tên dịch vụ:** `api-236912`
+- **URL Backend API (Link_Render_API):** https://api-236912.onrender.com
+- **Health Check Endpoint:** https://api-236912.onrender.com/health
+- **Foods API Endpoint:** https://api-236912.onrender.com/api/foods
