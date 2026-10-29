@@ -37,3 +37,8 @@ docker build -t 236912tranminhdung/backend:latest ./backend
 
 # Chạy container với biến môi trường truyền từ bên ngoài
 docker run -d -p 5000:5000 -e PORT=5000 -e MONGO_URI="your_mongodb_connection_string" 236912tranminhdung/backend:latest
+## 5. Hướng dẫn đóng gói và chạy Frontend bằng Docker
+- **Docker Hub Frontend URL:** `https://hub.docker.com/r/tmdung0910/frontend`
+```bash
+docker build --build-arg VITE_API_URL=http://localhost:5000 -t tmdung0910/frontend:latest ./frontend
+docker run -d -p 3000:80 tmdung0910/frontend:latest
