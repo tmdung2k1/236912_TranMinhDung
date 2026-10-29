@@ -42,3 +42,7 @@ docker run -d -p 5000:5000 -e PORT=5000 -e MONGO_URI="your_mongodb_connection_st
 ```bash
 docker build --build-arg VITE_API_URL=http://localhost:5000 -t tmdung0910/frontend:latest ./frontend
 docker run -d -p 3000:80 tmdung0910/frontend:latest
+
+## 6. Triển khai Frontend trên Render
+- **Tên dịch vụ:** `web-2212345`
+- **URL Frontend (Link_Render_App):** https://web-2212345.onrender.com
