@@ -29,3 +29,11 @@ npm start
 cd frontend
 npm install
 npm run dev
+## 4. Hướng dẫn đóng gói và chạy Backend bằng Docker
+- **Docker Hub Backend URL:** `https://hub.docker.com/r/236912tranminhdung/backend`
+```bash
+# Build image
+docker build -t 236912tranminhdung/backend:latest ./backend
+
+# Chạy container với biến môi trường truyền từ bên ngoài
+docker run -d -p 5000:5000 -e PORT=5000 -e MONGO_URI="your_mongodb_connection_string" 236912tranminhdung/backend:latest
