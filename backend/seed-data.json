@@ -1,0 +1,56 @@
+[
+    {
+        "foodId": "FD001",
+        "name": "Phở Bò Tái Lăn",
+        "category": "Món nước",
+        "cuisine": "Miền Bắc",
+        "ingredients": [
+            "Bánh phở",
+            "Thịt bò",
+            "Hành lá",
+            "Gừng",
+            "Quế",
+            "Hồi"
+        ],
+        "price": 55000,
+        "quantity": 100,
+        "description": "Phở bò truyền thống Hà Nội với nước dùng ninh xương đậm đà.",
+        "imageUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=500"
+    },
+    {
+        "foodId": "FD002",
+        "name": "Cơm Tấm Sườn Bì Chả",
+        "category": "Món khô",
+        "cuisine": "Miền Nam",
+        "ingredients": [
+            "Gạo tấm",
+            "Sườn nướng",
+            "Bì",
+            "Chả trứng",
+            "Mỡ hành",
+            "Nước mắm"
+        ],
+        "price": 45000,
+        "quantity": 80,
+        "description": "Cơm tấm đặc trưng Sài Gòn với sườn nướng mật ong thơm lừng.",
+        "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500"
+    },
+    {
+        "foodId": "FD003",
+        "name": "Bún Bò Huế",
+        "category": "Món nước",
+        "cuisine": "Miền Trung",
+        "ingredients": [
+            "Bún sợi to",
+            "Bắp bò",
+            "Giò heo",
+            "Chả cua",
+            "Mắm ruốc",
+            "Sả"
+        ],
+        "price": 50000,
+        "quantity": 60,
+        "description": "Bún bò chuẩn vị cố đô Huế cay nồng mùi sả và mắm ruốc.",
+        "imageUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=500"
+    }
+]
